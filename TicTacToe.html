@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        
+        <!-- Start Screen -->
+        <div id="start-screen">
+            <button id="start-btn">Start Game</button>
+        </div>
+        
+        <!-- Player Input Form (initially hidden) -->
+        <div id="player-form" class="hidden">
+            <h2>Enter Player Names</h2>
+            <div class="form-group">
+                <label for="player1">Player 1 (X):</label>
+                <input type="text" id="player1" required>
+            </div>
+            <div class="form-group">
+                <label for="player2">Player 2 (O):</label>
+                <input type="text" id="player2" required>
+            </div>
+            <button id="submit-players">Start Playing</button>
+        </div>
+        
+        <!-- Game Board (initially hidden) -->
+        <div id="game-container" class="hidden">
+            <div class="status" id="status"></div>
+            
+            <div class="grid-container">
+                <div class="grid-item" data-index="0"></div>
+                <div class="grid-item" data-index="1"></div>
+                <div class="grid-item" data-index="2"></div>
+                <div class="grid-item" data-index="3"></div>
+                <div class="grid-item" data-index="4"></div>
+                <div class="grid-item" data-index="5"></div>
+                <div class="grid-item" data-index="6"></div>
+                <div class="grid-item" data-index="7"></div>
+                <div class="grid-item" data-index="8"></div>
+            </div>
+            
+            <div class="button-group">
+                <button id="reset">Reset Game</button>
+                <button id="reset-players">Reset Players</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
