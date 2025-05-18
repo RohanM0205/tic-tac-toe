@@ -14,4 +14,4 @@ A responsive Tic Tac Toe game built with HTML, CSS, and JavaScript.
 2. Take turns clicking cells
 3. First to get 3 in a row wins!
 
-[Play Here](https://github.com/RohanM0205/tic-tac-toe.git)
+[Play Here](https://RohanM0205.github.io/tic-tac-toe) 
